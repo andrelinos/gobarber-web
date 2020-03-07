@@ -32,6 +32,12 @@ export const Content = styled.div`
         color: rgba(255, 255, 255, 0.7);
       }
     }
+    span {
+      color: #fb6f91;
+      align-self: flex-start;
+      margin: 0 0 10px;
+      opacity: 0.8;
+    }
 
     button {
       margin: 5px 0 0;
@@ -39,7 +45,7 @@ export const Content = styled.div`
       background: #3b9eff;
       color: #fff;
       border: 0;
-      border-radius: 16px;
+      border-radius: 5px;
       font-size: 16px;
       transition: background 0.2s;
 
